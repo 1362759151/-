@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var kh = '我智障';
+       var mm = '我喜欢你';
+       function a1(){
+         for(var i = 1;i<100;i++){
+       	   var kh1 = prompt('请输入我智障');
+         if(kh1 == kh){
+          	for(var i1 = 1;i1<100;i1++){
+            var mm1 = prompt('哈哈哈,快说你喜欢我');
+          	 if(mm1 == mm){
+          	 	alert('记住这个数字(2077)');
+          	 	var je = parseInt(prompt('我想让你写下刚才那个数字'));
+          	 	var je1 = parseInt(prompt('我想让你写下"你"和"我"'));
+          	 	var result = je - je1;
+          	 	alert(result);
+          	 	break;
+        	 }else{
+        	 	if(i1 == '99'){
+            	alert('取款失败,请取卡')
+            }else{
+            	alert('还能写错啊,好笨呦');
+            }
+           }
+         }break;
+        }else{
+            if(i == '99'){
+            	alert('取款失败,请取卡')
+            }else{
+            	alert('写错了,智障');
+            }
+        }
+      }
+    }
+       a1();
+    </script>
+</body>
+</html>
